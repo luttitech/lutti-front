@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "68761620672",
+    "firebase_url": "https://lutti-5e0ef.firebaseio.com",
+    "project_id": "lutti-5e0ef",
+    "storage_bucket": "lutti-5e0ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68761620672:android:969d7a9eada8b397e35d25",
+        "android_client_info": {
+          "package_name": "com.luttiapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68761620672-bfm6qj4m70n6j054nos8i069qkr2g64c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.luttiapp",
+            "certificate_hash": "94926cd2040ca7e29f0b9b98b1b26bec245e4425"
+          }
+        },
+        {
+          "client_id": "68761620672-1s24kua81ca9ip64acvvoaurgl3aip63.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmnzM6PFQdKLqtpQhYTR_2LS3xWDUeYlM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68761620672-1s24kua81ca9ip64acvvoaurgl3aip63.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
