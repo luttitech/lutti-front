@@ -22,20 +22,24 @@ export const doPayment = (amount, tokenId, accessToken) => {
     });
 };
 
-export async function login(number){
-    var data = await axios.get('https://lutti-5e0ef.firebaseio.com/user.json?orderBy="number"&equalTo="'+number+'"&print=pretty')
+export async function login(email, senha){
+    var data = await axios.post('gerson/endpoint', {email: email, senha: senha} )
+    .then(function(response) {
+        return response;
+    })
         .catch(error => {
         return Promise.reject('Error in making login', error);
     });
     return data
 };
 
+// register new api 
 export async function register(user){
     const body = user;
     const headers = {
         'Content-Type': 'application/json',
     };
-    var data = await axios.post('https://lutti-5e0ef.firebaseio.com/user.json', body, { headers })
+    var data = await axios.post('gerson/endpoint', body, { headers })
         .then(({ data }) => {
         return data;
         })
