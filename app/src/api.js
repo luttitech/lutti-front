@@ -23,7 +23,7 @@ export const doPayment = (amount, tokenId, accessToken) => {
 };
 
 export async function login(email, senha){
-    var data = await axios.post('gerson/endpoint', {email: email, senha: senha} )
+    var data = await axios.post('https://services.lutti.tech/users/login', {email: email, senha: senha} )
     .then(function(response) {
         return response;
     })
@@ -39,7 +39,7 @@ export async function register(user){
     const headers = {
         'Content-Type': 'application/json',
     };
-    var data = await axios.post('gerson/endpoint', body, { headers })
+    var data = await axios.post('https://services.lutti.tech/users/create', body, { headers })
         .then(({ data }) => {
         return data;
         })

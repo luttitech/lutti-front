@@ -9,7 +9,7 @@ import Welcome from './pages/welcome/Welcome';
 import Begin from './pages/begin/Begin';
 import Terms from './pages/terms/Terms';
 import Register from './pages/register/Register';
-import ConfirmCellphone from './pages/confirm-cellphone/ConfirmCellphone';
+// import ConfirmCellphone from './pages/confirm-cellphone/ConfirmCellphone';
 import Menu from './pages/menu/Menu';
 
 const Stack = createStackNavigator();
@@ -151,13 +151,13 @@ function Routes({ navigation }) {
                         headerShown: false
                     }}
                 />
-                <Stack.Screen 
+                {/* <Stack.Screen 
                     name="ConfirmCellphone" 
                     component={ConfirmCellphone} 
                     options={{
                         headerShown: false
                     }}
-                />
+                /> */}
                 <Stack.Screen 
                     name="Register" 
                     component={Register} 
